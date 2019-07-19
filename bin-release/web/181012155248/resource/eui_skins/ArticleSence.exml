@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ArticleSence" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164dac22c1d"/>
+	<e:Image width="1920" height="1080" left="0" top="0" source="bg2_png" locked="true"/>
+	<ns1:MenuView id="menu_nav" width="1600" height="121" horizontalCenter="0" skinName="MenuSkin" top="0"/>
+	<ns1:BackBtnView width="169" height="146" skinName="BackBtnSkin" left="0" bottom="0"/>
+	<e:Group width="1520" height="770" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-9" horizontalCenter="0">
+		<e:Rect top="0" bottom="0" left="0" right="0" fillColor="0x512311"/>
+		<e:Scroller id="scroll_news" width="1460" height="750" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.ScrollerSkin" scrollPolicyV="off" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+			<e:Group id="scroll_group" anchorOffsetX="0" width="1460" anchorOffsetY="0" height="100%" touchChildren="true">
+			<e:layout>
+				<e:TileLayout orientation="columns" horizontalGap="10" verticalGap="10" rowHeight="360" requestedRowCount="2" columnWidth="360"/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="gp_newView" top="0" bottom="0" left="0" right="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x6e321b" fillAlpha="0.95"/>
+		<e:Label id="new_title" text="Label" textColor="0xc5a56e" fontFamily="Microsoft YaHei" size="39" bold="true" verticalCenter="-289.5" horizontalCenter="0"/>
+		<e:Image id="new_image" horizontalCenter="0" maxHeight="400" maxWidth="600" source="01_png" verticalCenter="0"/>
+		<e:Button id="btn_close" label="" x="1702" y="32">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="close_png" source.down="close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

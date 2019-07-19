@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSence" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16361bf0ed3"/>
+	<e:Image width="1920" height="1080" left="0" top="0" source="game_png"/>
+	<ns1:GameMap id="gm" height="574" verticalCenter="51" left="475" right="475" width="1000" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BeginSence" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="164dac22c1d"/>
+	<e:Image width="1920" height="1080" left="0" top="0" source="bg2_png" locked="true"/>
+	<ns1:MenuView id="menu_nav" width="1600" height="121" horizontalCenter="0" skinName="MenuSkin" top="0"/>
+	<ns1:BackBtnView width="169" height="146" skinName="BackBtnSkin" left="0" bottom="0"/>
+	<e:Label text="古钱币渊源与由来" anchorOffsetX="0" width="60" anchorOffsetY="0" height="599.7" fontFamily="NSimSun" size="60" textColor="0x512411" bold="true" verticalAlign="middle" textAlign="center" horizontalCenter="-669" verticalCenter="-43"/>
+	<e:Scroller width="1115.15" height="572.73" x="461" y="261" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+		<e:Group id="gp_scroll" anchorOffsetX="0" width="1183.15" anchorOffsetY="0" height="591.73" x="-68">
+			<e:Label text="清朝铜钱，纸币和机制币" y="36" bold="true" textAlign="center" verticalAlign="middle" textColor="0x000000" width="100%" horizontalCenter="0"/>
+			<e:Label text="清代铜钱沿用明朝的制度，主要铸行小平钱。清代铜钱中以咸丰钱最为复杂，钱文有通宝、重宝和元宝之分，面值不同，钱局不同。清朝民间商务大数用银，小钱用钱，钱、银并行。 清初一百年以银锭为主币，征税一两以上必须收银，清朝各州县每年分夏，秋两季征收田赋，完粮必须是足银。因中央不铸造统一流通银两，民间使用的银子未必是足银，各地银锭形式、成色、平码不同，因此每逢纳税前由银匠和银铺将民间散银熔铸成足银上当。一些银匠勾结吏役趁机在银两成色，分量上苛剥百姓，造成许多复杂的社会问题。 清朝后期银锭开始向银元转化。明朝中叶起，在对外贸易中外国商人用他们的银元购买中国丝、茶、瓷器等，使各种外国银元开始在中国流行。到清道光年间，从签不平等《南京条约》开始，赔款用的银元都是“洋钱”，当时中国本国还没银元。库存洋钱不足抵销数目剧增的对外赔款，于是迫使清末政府开始自己铸造银元。中国最早的机制洋式银元为光绪年间的“光绪元宝”，俗称“龙洋”，因银元背面一般铸有龙纹而得名。同时出现机制铜元，又称“铜板”。机制银币和铜元的出现对中国传统的银两货币和方孔圆形为主的铜钱制是一种巨大冲击。 [2] " width="60%" left="0" wordWrap="true" lineSpacing="20" fontFamily="SimSun" textColor="0x000000" verticalAlign="top" textAlign="left" horizontalCenter="-223.07500000000005" verticalCenter="351.635" multiline="true"/>
+			<e:Image x="779" y="115" source="youlai1_png"/>
+			<e:Image x="779" y="436.73" source="youlai2_png"/>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

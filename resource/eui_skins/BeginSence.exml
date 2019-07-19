@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BeginSence" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="tweenGroup">
+			<tween:TweenItem target="{image}">
+				<tween:Set/>
+				<tween:To duration="2650" ease="quadIn">
+					<tween:props>
+						<e:Object alpha="{0.5}" y="{260}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="3300" ease="quadIn">
+					<tween:props>
+						<e:Object alpha="{1}" y="{253}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{image0}">
+				<tween:Set/>
+				<tween:To duration="3150" ease="quadIn">
+					<tween:props>
+						<e:Object alpha="{0.5}" x="{1140}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="3350" ease="quadIn">
+					<tween:props>
+						<e:Object alpha="{0}" x="{1145}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="164dac22c1d"/>
+	<e:Image width="1920" height="1080" left="0" top="0" source="begin_png" locked="true"/>
+	<e:Button id="btn_start" label="" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="225.5" enabled="true" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_png" source.down="btn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_guize" label="" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="328" enabled="true" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guize_png" source.down="guize_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="image" source="yun1_png" y="253" x="771"/>
+	<e:Image id="image0" x="1134" y="278.5" source="yun2_png"/>
+</e:Skin>

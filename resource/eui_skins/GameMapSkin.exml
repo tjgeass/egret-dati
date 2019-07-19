@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMapSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*" height="600" width="1000">
+	<w:Declarations>
+		<tween:TweenGroup id="tweenGroup">
+			<tween:TweenItem target="{lb_question}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1400" ease="sineIn">
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="167bef5db54"/>
+	<e:Label text="倒计时：" x="837.94" y="20" textColor="0x70aeca" size="20" fontFamily="KaiTi" bold="true"/>
+	<e:Label id="lb_time" text="180" y="20" anchorOffsetX="0" anchorOffsetY="0" size="20" fontFamily="KaiTi" bold="true" x="919.94" textColor="0x70aeca"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-250" horizontalCenter="0.5">
+		<e:Label id="lb_num" text="第1题" bold="true" fontFamily="KaiTi" horizontalCenter="0" textColor="0xfec969" x="78.61000000000001" scaleX="1" scaleY="1" bottom="10" size="40"/>
+		<e:Image scaleX="1" scaleY="1" source="title_png" horizontalCenter="0" bottom="0"/>
+	</e:Group>
+	<e:Group id="gp_que" width="800" height="520" horizontalCenter="0" anchorOffsetX="0" anchorOffsetY="0" bottom="0">
+		<e:Label id="lb_question" text="Label" x="104" y="54.82" fontFamily="KaiTi" anchorOffsetX="0" width="600" lineSpacing="10" wordWrap="true" multiline="true" textColor="0xffffff" size="36"/>
+		<e:Button id="btn_true" label="是的" x="104" y="381">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn1_png" source.down="btn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x2e6d8a" size="28" fontFamily="KaiTi"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_false" label="不是" x="527.39" y="381">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn1_png" source.down="btn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x2e6d8a" size="28" fontFamily="KaiTi"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="gp_explain" width="732" height="393" horizontalCenter="0" bottom="50" visible="false">
+		<e:Image source="result_png" left="0" right="0" top="-24" bottom="0" anchorOffsetY="0"/>
+		<e:Button id="btn_next" label="下一题" y="282" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn1_png" source.down="btn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0x2e6d8a" fontFamily="KaiTi"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lb_title" text="Label" y="18" fontFamily="KaiTi" size="38" horizontalCenter="0"/>
+		<e:Label id="lb_explain" text="Label" y="88" horizontalCenter="0" fontFamily="KaiTi" anchorOffsetX="0" width="450"/>
+	</e:Group>
+	<e:Group id="gp_result" width="789.39" height="460.61" y="58.12" anchorOffsetX="0" anchorOffsetY="-1.86" horizontalCenter="0" visible="false">
+		<e:Label id="lb_text0" text="Label" y="46.5" horizontalCenter="0" fontFamily="KaiTi"/>
+		<e:Label id="lb_text1" text="Label" y="125.33333333333334" horizontalCenter="0" fontFamily="KaiTi"/>
+		<e:Label id="lb_text2" text="Label" y="203.66666666666669" horizontalCenter="0" fontFamily="KaiTi"/>
+		<e:Label id="lb_text3" text="Label" y="281.52" horizontalCenter="0" fontFamily="KaiTi"/>
+		<e:Button id="btn_restart" label="再次挑战" y="369" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn1_png" source.down="btn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="KaiTi" textColor="0x2e6d8a"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

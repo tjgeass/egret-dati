@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMainSence" width="1920" height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16361bf0ed3"/>
+	<e:Image width="1920" height="1080" left="0" top="0" source="bg2_png"/>
+	<ns1:TimerView id="time_manager" width="204" height="58" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-327" horizontalCenter="-682"/>
+	<ns1:GameMap id="gm" height="600" verticalCenter="0" left="0" right="0"/>
+	<ns1:BackBtnView width="20" height="20" left="0" bottom="0" skinName="BackBtnSkin"/>
+	<ns1:MenuView width="1600" height="121" top="0" skinName="MenuSkin" horizontalCenter="0"/>
+</e:Skin>

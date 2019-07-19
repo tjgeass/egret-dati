@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMapSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="600" width="1920">
+	<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0x72381f"/>
+	<e:Group id="gp_main" width="1600" height="360" horizontalCenter="0" verticalCenter="0" visible="false">
+		<e:Label text="等值连连看" x="67" anchorOffsetX="0" width="50" anchorOffsetY="0" height="360" verticalCenter="0" textAlign="center" verticalAlign="middle" size="50" textColor="0xc3a16a" bold="true" fontFamily="SimSun"/>
+		<e:Group id="gp1" width="300" height="360" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="190" verticalCenter="0">
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="gp2" width="300" height="360" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" scaleX="1" scaleY="1" x="679">
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="gp3" width="300" height="360" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" scaleX="1" scaleY="1" horizontalCenter="518" verticalCenter="0">
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Group id="gp_explain" width="1600" height="550" horizontalCenter="0" verticalCenter="0">
+		<e:Label text="小游戏" x="301" textColor="0xc3a16a" size="60" fontFamily="KaiTi" bold="true" width="60" verticalCenter="0"/>
+		<e:Label text="兑换关系简介" x="448" y="26" textColor="0xc3a16a" bold="true" fontFamily="KaiTi"/>
+		<e:Label id="lb_sm" text="Label" x="448" y="73" fontFamily="KaiTi" textColor="0xc3a16a" anchorOffsetX="0" width="1075" lineSpacing="5" wordWrap="true" multiline="true"/>
+		<e:Label id="lb_time" text="10" y="441" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="2" size="30" textColor="0xc3a16a" fontFamily="Microsoft YaHei" bold="true"/>
+		<e:Button id="btn_close" label="跳过" horizontalCenter="2" bottom="2" x="696" y="473" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_1_png" source.down="btn_1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" size="36" text="跳过" textColor="0xc3a16a"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>
